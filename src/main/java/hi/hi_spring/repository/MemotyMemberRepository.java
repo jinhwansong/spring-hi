@@ -6,7 +6,6 @@ import org.springframework.stereotype.Repository;
 import javax.lang.model.type.ArrayType;
 import java.util.*;
 
-@Repository
 public class MemotyMemberRepository implements MemberRepository {
 
     private static Map<Long, Member> store = new HashMap<>();
